@@ -1,0 +1,6 @@
+/home/masinde/cppt_test/Testing/UNitTesting/build/CMakeFiles/edit_cache.dir
+/home/masinde/cppt_test/Testing/UNitTesting/build/CMakeFiles/test.dir
+/home/masinde/cppt_test/Testing/UNitTesting/build/CMakeFiles/rebuild_cache.dir
+/home/masinde/cppt_test/Testing/UNitTesting/build/CMakeFiles/cpp_test.dir
+/home/masinde/cppt_test/Testing/UNitTesting/build/CMakeFiles/sum_up.dir
+/home/masinde/cppt_test/Testing/UNitTesting/build/CMakeFiles/sum_integers.dir

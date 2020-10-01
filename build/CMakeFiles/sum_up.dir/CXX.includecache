@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/masinde/cppt_test/Testing/UNitTesting/main.cpp
+sum_integers.hpp
+/home/masinde/cppt_test/Testing/UNitTesting/sum_integers.hpp
+iostream
+-
+string
+-
+vector
+-
+
+/home/masinde/cppt_test/Testing/UNitTesting/sum_integers.hpp
+vector
+-
+
