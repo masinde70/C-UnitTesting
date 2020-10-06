@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmax.a  CMakeFiles/max.dir/max1.cpp.o
+/usr/bin/ranlib libmax.a

@@ -1,0 +1,59 @@
+Start testing: Oct 06 10:37 EEST
+----------------------------------------------------------
+1/1 Testing: catch_test
+1/1 Test: catch_test
+Command: "/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/cpp_test" "--success"
+Directory: /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build
+"catch_test" start time: Oct 06 10:37 EEST
+Output:
+----------------------------------------------------------
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+cpp_test is a Catch v2.11.3 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+The maximum integer
+-------------------------------------------------------------------------------
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp:5
+...............................................................................
+
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp:7: PASSED:
+  REQUIRE( max(i,x)>8 )
+with expansion:
+  45 > 8
+
+-------------------------------------------------------------------------------
+Maximum double
+-------------------------------------------------------------------------------
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp:10
+...............................................................................
+
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp:12: PASSED:
+  REQUIRE( max(i,k)>0.9 )
+with expansion:
+  23.89 > 0.9
+
+-------------------------------------------------------------------------------
+Maximum string
+-------------------------------------------------------------------------------
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp:15
+...............................................................................
+
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp:21: PASSED:
+  REQUIRE( max(k,j)>j )
+with expansion:
+  7 > 5
+
+===============================================================================
+All tests passed (3 assertions in 3 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"catch_test" end time: Oct 06 10:37 EEST
+"catch_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 06 10:37 EEST

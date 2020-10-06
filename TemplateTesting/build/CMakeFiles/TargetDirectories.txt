@@ -1,0 +1,6 @@
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles/edit_cache.dir
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles/test.dir
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles/rebuild_cache.dir
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles/cpp_test.dir
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles/max_up.dir
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles/max.dir

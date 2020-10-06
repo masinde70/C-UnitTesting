@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # example library
-add_library(max sum_integers.cpp)
+add_library(max max1.cpp)
 
 # main code
 add_executable(max_up max1.cpp)

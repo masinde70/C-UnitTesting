@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/max_up.dir/max1.cpp.o  -o max_up  libmax.a 

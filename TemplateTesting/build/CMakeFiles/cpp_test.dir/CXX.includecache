@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.hpp
+
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp
+max1.hpp
+/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.hpp
+catch2/catch.hpp
+-
+
