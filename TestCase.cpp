@@ -8,7 +8,8 @@ int Factorial( int number ) {
 }
 
 TEST_CASE( "Factorial of 0 is 1 (fail)", "[single-file]" ) {
-    REQUIRE( Factorial(1) == 1 );
+    REQUIRE( Factorial(1) == 0 );
+    REQUIRE( Factorial(4)==24);
 }
 
 TEST_CASE( "Factorials of 1 and higher are computed (pass)", "[single-file]" ) {
