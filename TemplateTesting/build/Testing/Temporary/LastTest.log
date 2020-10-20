@@ -1,10 +1,10 @@
-Start testing: Oct 06 10:37 EEST
+Start testing: Oct 20 15:47 EEST
 ----------------------------------------------------------
 1/1 Testing: catch_test
 1/1 Test: catch_test
 Command: "/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/cpp_test" "--success"
 Directory: /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build
-"catch_test" start time: Oct 06 10:37 EEST
+"catch_test" start time: Oct 20 15:47 EEST
 Output:
 ----------------------------------------------------------
 
@@ -49,11 +49,11 @@ with expansion:
 All tests passed (3 assertions in 3 test cases)
 
 <end of output>
-Test time =   0.00 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"catch_test" end time: Oct 06 10:37 EEST
+"catch_test" end time: Oct 20 15:47 EEST
 "catch_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 06 10:37 EEST
+End testing: Oct 20 15:47 EEST

@@ -1,0 +1,77 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "training-02",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_test-53588fda18ecb629a89d.json",
+					"name" : "cpp_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max-25b7181774dec94179c1.json",
+					"name" : "max",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "max_up::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-max_up-3809f64ef6738606de9f.json",
+					"name" : "max_up",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build",
+		"source" : "/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

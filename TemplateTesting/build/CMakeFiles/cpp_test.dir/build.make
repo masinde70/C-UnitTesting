@@ -60,15 +60,15 @@ include CMakeFiles/cpp_test.dir/flags.make
 CMakeFiles/cpp_test.dir/test.cpp.o: CMakeFiles/cpp_test.dir/flags.make
 CMakeFiles/cpp_test.dir/test.cpp.o: ../test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp_test.dir/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_test.dir/test.cpp.o -c /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp
+	/usr/bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_test.dir/test.cpp.o -c /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp
 
 CMakeFiles/cpp_test.dir/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_test.dir/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp > CMakeFiles/cpp_test.dir/test.cpp.i
+	/usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp > CMakeFiles/cpp_test.dir/test.cpp.i
 
 CMakeFiles/cpp_test.dir/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_test.dir/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp -o CMakeFiles/cpp_test.dir/test.cpp.s
+	/usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/test.cpp -o CMakeFiles/cpp_test.dir/test.cpp.s
 
 # Object files for target cpp_test
 cpp_test_OBJECTS = \

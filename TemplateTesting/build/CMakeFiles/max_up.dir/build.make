@@ -60,15 +60,15 @@ include CMakeFiles/max_up.dir/flags.make
 CMakeFiles/max_up.dir/max1.cpp.o: CMakeFiles/max_up.dir/flags.make
 CMakeFiles/max_up.dir/max1.cpp.o: ../max1.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/max_up.dir/max1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/max_up.dir/max1.cpp.o -c /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.cpp
+	/usr/bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/max_up.dir/max1.cpp.o -c /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.cpp
 
 CMakeFiles/max_up.dir/max1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/max_up.dir/max1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.cpp > CMakeFiles/max_up.dir/max1.cpp.i
+	/usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.cpp > CMakeFiles/max_up.dir/max1.cpp.i
 
 CMakeFiles/max_up.dir/max1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/max_up.dir/max1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.cpp -o CMakeFiles/max_up.dir/max1.cpp.s
+	/usr/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/masinde/cppt_test/Testing/UNitTesting/TemplateTesting/max1.cpp -o CMakeFiles/max_up.dir/max1.cpp.s
 
 # Object files for target max_up
 max_up_OBJECTS = \
