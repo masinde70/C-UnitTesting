@@ -30,10 +30,13 @@ TEST_CASE("Assert that something is true (continue after failure)", "[check]"){
 
 TEST_CASE("Assert that something is false(stops at first failure)", "[require-false]"){
     WARN( "REQUIRE_FALSE stop at first failure:");
+    
+    REQUIRE_FALSE( one() == "1");
+    REQUIRE_FALSE(  one() == "1");
 }
 
 
-TEST_CASE(""){
+TEST_CASE("Assert that something is false (continue after failure)", "[check-false]"){
     
 }
 
