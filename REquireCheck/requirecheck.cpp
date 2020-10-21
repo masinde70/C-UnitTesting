@@ -37,7 +37,10 @@ TEST_CASE("Assert that something is false(stops at first failure)", "[require-fa
 
 
 TEST_CASE("Assert that something is false (continue after failure)", "[check-false]"){
-    
+    WARN( "REQUIRE_FALSE stops at first failure: ");
+
+    CHECK_FALSE( one() == "1");
+    REQUIRE_FALSE( one()!= "1");
 }
 
 
