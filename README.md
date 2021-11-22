@@ -7,5 +7,8 @@
    - Lambdas
    - Maps
    - Expert Utilities
+   - Move Semantics
+   - c++17 and c++20
+
 
  
