@@ -1,18 +1,49 @@
-#include "sum_integers.hpp"
-
 #include <iostream>
-#include <string>
 #include <vector>
 
-// we assume all arguments are integers and we sum them up
-// for simplicity we do not verify the type of arguments
-int main(int argc, char *argv[]) {
+void display_sizes(char *const comment,
+                   const std::vector<int>& nums1,
+                   const std::vector<int>& nums2,
+                   const std::vector<int>& nums3){
+    std::cout << comment
+              << "nums1: " << nums1.size() << ','
+              << "nums2: "  << nums2.size() << ','
+              << "nums3: "  << nums3.size() << '\n';
+}
 
-  std::vector<int> integers;
-  for (auto i = 1; i < argc; i++) {
-    integers.push_back(std::stoi(argv[i]));
-  }
-  auto sum = sum_integers(integers);
+void display(char *const comment, const std::vector<int>& v){
+    std::cout << comment << "{ ";
+    for (int e : v) {
+        std::cout << e << " ";
+    }
+    std::cout << "}\n";
+}
+int main() {
+    std::vector<int> nums1 {32, 32, 32, 72};
+    std::vector<int> nums2;
+    std::vector<int> nums3;
 
-  std::cout << sum << std::endl;
+    display_sizes("Initailly:\n", nums1, nums2, nums3);
+    // copy assignment copies from nums1 to nums 2
+    nums2 = nums1;
+
+    display_sizes("After assignment:\n", nums1, nums2, nums3);
+
+    //move assignment moves data from nums1 to nums 3
+    //modifying both nums1 and nums3
+
+    nums3 = std::move(nums1);
+
+    display_sizes("After move assignment:\n", nums1, nums2, nums3);
+
+    display("Now nums3 = ", nums3);
+
+    // copy assignment of an initializer_list copies data to nums3
+    nums3 = {1, 2, 3};
+
+    display("After assignment of initializer_list \n nums3 = ", nums3);
+
+
+
+
 }

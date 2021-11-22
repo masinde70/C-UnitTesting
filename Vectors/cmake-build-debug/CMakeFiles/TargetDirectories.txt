@@ -1,0 +1,3 @@
+/home/masinde/CLionProjects/Enterview/Vectors/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/masinde/CLionProjects/Enterview/Vectors/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/masinde/CLionProjects/Enterview/Vectors/cmake-build-debug/CMakeFiles/Vectors.dir
