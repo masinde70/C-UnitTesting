@@ -5,5 +5,7 @@
    - Structures
    - Templates
    - Lambdas
-   - 
+   - Maps
+   - Expert Utilities
+
  
