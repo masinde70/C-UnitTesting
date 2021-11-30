@@ -1,5 +1,3 @@
-## The power of vectors
-
 #include <iostream>
 #include <vector>
 #include <string>
